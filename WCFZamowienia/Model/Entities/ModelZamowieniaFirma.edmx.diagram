@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e53fdeb58d74b6fa3370dad508661a5" Name="Diagram1">
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.JednostkaMiary" Width="1.5" PointX="4.375" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.Kategorie" Width="1.5" PointX="6.625" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.Klient" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.PozycjaZamowienia" Width="1.5" PointX="5.125" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.Pracownicy" Width="1.5" PointX="0.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.Towar" Width="1.5" PointX="8.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamowieniaFirmaModel.Zamowienia" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="ZamowieniaFirmaModel.FK_Towar_JednostkaMiary" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamowieniaFirmaModel.FK_Towar_Kategorie" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamowieniaFirmaModel.FK_Zamowienia_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamowieniaFirmaModel.FK_PozycjaZamowienia_Towar" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamowieniaFirmaModel.FK_PozycjaZamowienia_Zamowienia" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamowieniaFirmaModel.FK_Zamowienia_Pracownicy" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
